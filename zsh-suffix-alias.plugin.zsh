@@ -10,10 +10,11 @@ fi
 #
 # Website
 #
-alias -s org=google-chrome
-alias -s com=google-chrome
-alias -s in=google-chrome
-alias -s io=google-chrome
+web-open() { open http://$1}
+alias -s org=web-open
+alias -s com=web-open
+alias -s in=web-open
+alias -s io=web-open
 
 #
 # Media files
