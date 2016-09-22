@@ -10,7 +10,7 @@ fi
 #
 # Website
 #
-web-open() { xdg-open http://$1}
+web-open() { open http://$1}
 alias -s org=web-open
 alias -s com=web-open
 alias -s in=web-open
